@@ -1,0 +1,11 @@
+[package]
+name = "nlp-transformers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+candle-transformers = "0.3.2"
+hf-hub = { version = "0.3.2", features = ["tokio"] }
+tokio = { version = "1.35.1", features = ["full"] }
